@@ -1,4 +1,4 @@
-## Docker
+##Docker
 
 Docker is an open-source containerization platform that allows developers to create, deploy, and run applications in a portable and efficient way. Its also a social platform that allows people to share and find ralevant containers that might have something similar you can build on top off
 
@@ -34,3 +34,15 @@ Docker and virtual machines (VMs) are both used to create isolated environments 
 4. Isolation: Docker containers provide less isolation than virtual machines, as they share the host operating system kernel and can potentially be affected by other containers on the same host. Virtual machines provide strong isolation between the guest operating system and the host operating system.
 5. Portability: Docker containers can run on any system that supports Docker, without worrying about compatibility issues or dependencies. Virtual machines, on the other hand, are tied to the virtualization software and require a compatible hypervisor to run.
 6. Management: Docker containers are easier to manage than virtual machines, as they can be easily created, run, and managed using Docker CLI or Docker Compose. Virtual machines require more configuration and management than Docker containers.
+
+##Using Docker
+
+- **Download Docker desktop and Install**
+  Docker Desktop is a desktop application that provides an easy-to-use interface for developers to build, test, and deploy containerized applications.
+
+- **Sign-up**
+  sign up /sign in - it allows you pull or push any image available on docker hub
+
+- **Test**
+  you can test it by running the following code: `docker run hello-world`
+  this will pull an image from docker hub that will print the information about docker
